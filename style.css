@@ -1,0 +1,51 @@
+body {
+    background-color:  #EAEAE0;
+    color :  #00336D;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#headspace {
+    color: #EAEAE0;
+    background-color: #00336D;
+    padding-bottom: 120px;
+    padding-top: 0px;
+}
+
+#headspace > h1 {
+    font-size:50px;
+    margin: 0;
+    float: left;
+    padding: 20px;
+}
+
+#headspace > ul {
+    list-style: none;
+    float:right;
+    font-size: 25px;
+    margin:0;
+    padding: 20px;
+}
+
+#headspace > ul > li {
+    float: left;
+    margin: 0;
+    padding: 15px 15px;
+}
+
+
+
+
+#tasklist > li{
+    list-style: none;
+    padding: 10px;
+    padding-left: 0px;
+    margin-left: 0;
+} 
+
+#footer {
+    padding: 30px;
+    margin:0;
+    color: #EAEAE0;
+    background-color: #00336D;
+}
