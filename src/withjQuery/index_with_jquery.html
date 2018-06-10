@@ -2,21 +2,21 @@
 
 <head>
     <title>webpage-trial</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../../style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
     <div id="head">
         <h1><i class="fas fa-vial fa-fw"></i>webpage-trial</h1>
         <ul>
-            <li><i class="devicon-vuejs-plain"></i></li>
-            <li><i class="devicon-react-original"></i></li>
-            <li><i class="devicon-jquery-plain"></i></li>
-            <li><a href="index.html">
-            <i class="devicon-javascript-plain"></i></a></li>
+            <li><a href="../withVue/index_with_vue.html"><i class="devicon-vuejs-plain"></i></a></li>
+            <li><a href="../withReact/index_with_react.html"><i class="devicon-react-original"></i></a></li>
+            <li><a href="index_with_jquery.html"><i class="devicon-jquery-plain"></i></a></li>
+            <li><a href="../../index.html"><i class="devicon-javascript-plain"></i></a></li>
         </ul>
     </div>
 
@@ -30,7 +30,7 @@
             <li>
                 <h2><i class="fas fa-font fa-fw" id="funcCount"></i> Count Characters</h2>
                 <p><textarea id='inputText' rows="7" cols="40"></textarea></p>
-                <button type="button" id="countButton">count the number of characters</button>
+                <button type="button" id="countButton">count</button>
                 <button type="button" id="textresetButton">clear</button>
                 <p>number of characters : <span id="count">0</span></p>
             </li>
@@ -46,5 +46,5 @@
     <div id="footer">
 
     </div>
-    <script src="src/vanilla/vanilla.js"></script>
+    <script src="withjQuery.js"></script>
 </body>
