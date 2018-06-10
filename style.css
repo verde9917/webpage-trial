@@ -6,7 +6,7 @@ body {
 }
 
 a:link , a:visited{
-    color: #EAEAE0;
+    color: inherit;
     text-decoration: none;
 }
 

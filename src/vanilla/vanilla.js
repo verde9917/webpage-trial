@@ -20,12 +20,11 @@ function changesecondColor(){
 
 // count numbers
 var countButton = document.getElementById('countButton');
+var charNumber = document.getElementById('count');
 countButton.addEventListener('click',countNumber,false);
 function countNumber(){
-    var textNumber = document.getElementById('inputText').value.length;
-    console.log(textNumber);
+    charNumber.innerHTML = document.getElementById('inputText').value.length;
 }
-
 
 var textresetButton = document.getElementById('textresetButton');
 textresetButton.addEventListener('click',clearText,false);
@@ -33,5 +32,6 @@ function clearText(){
     var area = document.getElementById('inputText');
     if(area.value != ''){
         area.value = '';
+        charNumber.innerHTML = "0";
     }
 }
