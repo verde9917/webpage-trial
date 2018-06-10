@@ -5,6 +5,19 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+a:link , a:visited{
+    color: #EAEAE0;
+    text-decoration: none;
+}
+
+a:hover {
+    color:cadetblue;
+}
+
+.devicon-vuejs-plain , .devicon-react-original , .devicon-jquery-plain , .devicon-javascript-plain {
+    font-size: 2rem;
+}
+
 #head {
     color: #EAEAE0;
     background-color: #00336D;
@@ -32,9 +45,6 @@ body {
     margin: 0;
     padding: 20px 10px;
 }
-
-
-
 
 #tasklist > li{
     list-style: none;
