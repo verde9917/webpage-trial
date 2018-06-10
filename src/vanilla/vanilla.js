@@ -35,3 +35,22 @@ function clearText(){
         charNumber.innerHTML = "0";
     }
 }
+
+// calculate taxed price
+var calcButton = document.getElementById('calcButton');
+var taxedPrice = document.getElementById('taxPrice');
+calcButton.addEventListener('click',calcPrice,false);
+function calcPrice(){
+    var originPrice = document.getElementById('inputPrice').value;
+    taxedPrice.innerHTML = parseInt(originPrice,10) * 1.08;
+}
+
+var priceresetButton = document.getElementById('priceresetButton');
+priceresetButton.addEventListener('click',clearPrice,false);
+function clearPrice(){
+    var area = document.getElementById('inputPrice');
+    if(area.value != ''){
+        area.value = '';
+        taxedPrice.innerHTML = "0";
+    }
+}
