@@ -1,4 +1,4 @@
-/*global $*/
+/* global $ */
 $(function () {
 
     // change first color

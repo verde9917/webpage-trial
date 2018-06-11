@@ -21,7 +21,7 @@ function changesecondColor() {
     document.getElementById('footer').style.color = newColor;
 }
 
-// count numbers
+// count characters
 var countButton = document.getElementById('countButton');
 var charNumber = document.getElementById('count');
 countButton.addEventListener('click', countNumber, false);
