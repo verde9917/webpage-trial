@@ -30,8 +30,8 @@ $(function () {
     // calculate taxed price
     var $taxedPrice = $('#taxPrice');
     $('#calcButton').click(function () {
-        var price = parseInt(parseInt($('#inputPrice').val()) * 1.08);
-        $taxedPrice.html(price);
+        var price = parseInt($('#inputPrice').val()) * 1.08;
+        $taxedPrice.html(parseInt(price));
     });
     
     $('#priceresetButton').click(function(){
