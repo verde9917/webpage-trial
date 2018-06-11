@@ -1,3 +1,4 @@
+/* global document */
 // change first color
 var firstColor = document.getElementById('firstColor');
 firstColor.addEventListener('change', changefirstColor, false);
