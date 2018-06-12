@@ -1,5 +1,5 @@
 /* global $ */
-new Vue({
+var colorSelector = new Vue({
     el: "#colorSelector",
     data: {
         firstcolorID: "#00336D",
@@ -19,14 +19,29 @@ new Vue({
             $('#footer').css('color', newColor);
         },
     }
-}, {
+})
+
+var inputText = new Vue({
     el: "#inputText",
     data: {
-        string: '',
-        number: 0,
+        texts: '',
+        reset:0
     },
     methods: {
-        countChar: function () {},
-        resetChar: function () {}
+        resetTexts: function () {
+            this.texts = '';
+        }
+    }
+})
+
+var calcPrice = new Vue({
+    el: "#calcPrice",
+    data:{
+        withoutTax:null,
     },
+    methods:{
+        resetPrice: function(){
+            this.withoutTax = null;
+        }
+    }
 })
